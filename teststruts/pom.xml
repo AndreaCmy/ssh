@@ -96,11 +96,11 @@
 			<version>4.2.5.RELEASE</version>
 		</dependency>
 		<dependency>
-	<groupId>org.springframework</groupId>
-	<artifactId>spring-tx</artifactId>
-	<version>4.2.5.RELEASE</version>
-</dependency>
-		
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>4.2.5.RELEASE</version>
+		</dependency>
+
 		<!-- struts2 -->
 		<dependency>
 			<groupId>org.apache.struts</groupId>
@@ -116,7 +116,7 @@
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-spring-plugin</artifactId>
 			<version>2.3.24.1</version>
-		</dependency>		
+		</dependency>
 		<dependency>
 			<groupId>org.apache.struts.xwork</groupId>
 			<artifactId>xwork-core</artifactId>
@@ -137,6 +137,11 @@
 			<groupId>com.mchange</groupId>
 			<artifactId>c3p0</artifactId>
 			<version>0.9.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>4.5.0.201609210915-r</version>
 		</dependency>
 
 	</dependencies>
