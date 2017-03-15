@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_5" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/WebContent"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Jetty 9.3.7.v20160115" scope="PROVIDED"/>
+	<lib name="Tomcat 8.0.24" scope="PROVIDED"/>
+	<levels>
+		<level name="Jetty 9.3.7.v20160115" value="application_server_libraries"/>
+		<level name="Tomcat 8.0.24" value="application_server_libraries"/>
+	</levels>
+</component>

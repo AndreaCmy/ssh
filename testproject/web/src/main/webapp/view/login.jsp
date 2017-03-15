@@ -3,7 +3,7 @@
 <html>
   <head><title>登录界面</title></head>
   <body>
-    <form action="<%=request.getContextPath() %>/saveUser.action">
+    <form action="<%=request.getContextPath() %>/saveUser!saveUser.action">
        用户名：<input name="username"><br>
        密 码：<input type="password" name="userpass"><br>
       <input type="submit" value="提 交">

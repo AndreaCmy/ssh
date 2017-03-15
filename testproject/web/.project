@@ -3,6 +3,9 @@
 	<name>web</name>
 	<comment></comment>
 	<projects>
+		<project>framework</project>
+		<project>dao-impl</project>
+		<project>service-impl</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
