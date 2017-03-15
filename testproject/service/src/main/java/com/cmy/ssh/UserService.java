@@ -1,4 +1,4 @@
-package main.java.com.cmy.ssh;
+package com.cmy.ssh;
 
 
 import java.io.Serializable;

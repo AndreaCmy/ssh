@@ -1,4 +1,4 @@
-package main.java.com.cmy.test.jgit;
+package com.cmy.test.jgit;
 
 import java.io.File;
 import java.io.IOException;

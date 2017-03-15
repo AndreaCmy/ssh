@@ -14,8 +14,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.cmy.testproject.web.controller</groupId>
-			<artifactId>controller</artifactId>
-		</dependency>
+			<artifactId>controller</artifactId> 
+		</dependency> 
 		<dependency>
 			<groupId>com.cmy.testproject.framework</groupId>
 			<artifactId>framework</artifactId>

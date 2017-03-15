@@ -1,4 +1,4 @@
-package main.java.com.cmy.utils;
+package com.cmy.utils;
 import java.io.File;
 import java.util.Iterator;
 

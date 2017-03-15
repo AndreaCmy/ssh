@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app" />
+        <module name="controller" />
+        <module name="dao" />
+        <module name="dao-impl" />
+        <module name="framework" />
+        <module name="model" />
+        <module name="service" />
+        <module name="service-impl" />
+        <module name="vo" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app" target="1.5" />
+      <module name="controller" target="1.5" />
+      <module name="dao" target="1.5" />
+      <module name="dao-impl" target="1.5" />
+      <module name="framework" target="1.5" />
+      <module name="model" target="1.5" />
+      <module name="service" target="1.5" />
+      <module name="service-impl" target="1.5" />
+      <module name="testproject" target="1.5" />
+      <module name="vo" target="1.5" />
+      <module name="web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

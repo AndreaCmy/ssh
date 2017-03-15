@@ -1,4 +1,4 @@
-package main.java.com.cmy.base;
+package com.cmy.base;
 
 import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;

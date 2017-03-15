@@ -1,4 +1,4 @@
-package main.java.com.cmy.base;
+package com.cmy.base;
 
 import java.util.ArrayList;
 import java.util.List;

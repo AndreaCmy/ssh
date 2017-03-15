@@ -1,4 +1,4 @@
-package main.java.com.cmy.ssh;
+package com.cmy.ssh;
 
 import java.util.UUID;
 
@@ -6,6 +6,8 @@ import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.cmy.ssh.User;
+import com.cmy.ssh.UserService;
 import com.opensymphony.xwork2.ActionSupport; 
 import org.apache.struts2.convention.annotation.Result; 
 //@Action(value = "strust2Test")
@@ -26,10 +28,9 @@ public class TestAction extends ActionSupport {
 	private UserService userService;
 
 	/**
-	 * http://localhost:8080/teststruts/strust2Test!test.action MethodName: test
+	 * http://localhost:8080/web/test.action MethodName: test
 	 * Description:
 	 * 
-	 * @author xudp
 	 */
 	public void test() {
 		System.out.println("进入TestAction");
@@ -37,9 +38,9 @@ public class TestAction extends ActionSupport {
 	}
 
 	/**
-	 * http://localhost:8080/teststruts/strust2Test!saveUser.action
+	 * http://localhost:8080/web/saveUser.action
 	 */
-	@Action(value = "/strust2Test/saveUser", 
+	@Action(value = "/saveUser", 
 			results = { @Result(name = SUCCESS, location = "/welcome.jsp"),  
                         @Result(name = "failure", location = "/error.jsp") })
 	public String saveUser() {

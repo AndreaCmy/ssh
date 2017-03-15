@@ -11,7 +11,7 @@
 	<context:property-placeholder location="classpath:config.properties" />
 
 	<!-- 自动扫描dao和service包(自动注入) -->
-	<context:component-scan base-package="com.cmy.testproject.controller" />
+	<context:component-scan base-package="com.cmy" />
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
