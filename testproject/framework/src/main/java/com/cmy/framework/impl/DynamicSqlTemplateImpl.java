@@ -1,20 +1,5 @@
 package com.cmy.framework.impl;
- 
-//
-//import com.tujia.framework.crmlog.Logger;
-//import com.tujia.framework.crmlog.LoggerFactory;
-//import com.tujia.framework.mq.FrameMqManager;
-//import com.tujia.framework.orm.BaseModel;
-//import com.tujia.framework.orm.DynamicSqlTemplate;
-//import com.tujia.framework.orm.IDataEntity;
-//import com.tujia.framework.orm.businesslog.BusinessLog;
-//import com.tujia.framework.orm.businessrollback.BusinessRollBack;
-//import com.tujia.framework.trace.TraceInterceptor;
-//import com.tujia.framework.usercontext.UserContext;
-//import com.tujia.framework.utility.ReflectionUtils;
-//import com.tujia.framework.utility.StringUtils;
-//import com.tujia.framework.vobase.CopyLogVo;
-//import com.tujia.framework.vobase.IUserInfo;
+  
 import java.io.IOException;
 import java.io.StringWriter;
 import java.lang.reflect.AccessibleObject;
@@ -1062,7 +1047,7 @@ public class DynamicSqlTemplateImpl implements DynamicSqlTemplate, InitializingB
             userMap.put("currentUserId", (Object)null);
             userMap.put("currentUserName", (Object)null);
             if(UserContext.getUserID() <= 0L && UserContext.getUserID() != -98L) {
-                logger.info("DynamicSqlTemplateImpl.setBaseValue UserContext未取到");
+                logger.info("DynamicSqlTemplateImpl.setBaseValue UserContext鏈彇鍒�");
                 this.getUserFromVo(vo, userMap);
             } else {
                 logger.info("DynamicSqlTemplateImpl.setBaseValue userId=" + UserContext.getUserID() + ",userName=" + UserContext.getLoginName());
@@ -1090,7 +1075,7 @@ public class DynamicSqlTemplateImpl implements DynamicSqlTemplate, InitializingB
             userMap.put("currentUserId", (Object)null);
             userMap.put("currentUserName", (Object)null);
             if(UserContext.getUserID() <= 0L && UserContext.getUserID() != -98L) {
-                logger.info("DynamicSqlTemplateImpl.updateBaseValue UserContext未取到");
+                logger.info("DynamicSqlTemplateImpl.updateBaseValue UserContext鏈彇鍒�");
                 this.getUserFromVo(vo, userMap);
             } else {
                 logger.info("DynamicSqlTemplateImpl.updateBaseValue userId=" + UserContext.getUserID() + ",userName=" + UserContext.getLoginName());
@@ -1130,7 +1115,7 @@ public class DynamicSqlTemplateImpl implements DynamicSqlTemplate, InitializingB
             map.put("currentUserId", (Object)null);
             map.put("currentUserName", (Object)null);
             if(UserContext.getUserID() <= 0L && UserContext.getUserID() != -98L) {
-                logger.info("DynamicSqlTemplateImpl.updateBaseValueBySql UserContext未取到");
+                logger.info("DynamicSqlTemplateImpl.updateBaseValueBySql UserContext鏈彇鍒�");
                 this.getUserFromVo(vo, map);
             } else {
                 logger.info("DynamicSqlTemplateImpl.updateBaseValueBySql userId=" + UserContext.getUserID() + ",userName=" + UserContext.getLoginName());
@@ -1365,7 +1350,7 @@ public class DynamicSqlTemplateImpl implements DynamicSqlTemplate, InitializingB
                     FrameMqManager.getInstance().sendMessage("copylogqueue", JsonTranslator.toString(var22));
                 }
             } else {
-                logger.info("DynamicSqlTemplateImpl.setCopyLogFromUpdate 未获取到update数据");
+                logger.info("DynamicSqlTemplateImpl.setCopyLogFromUpdate 鏈幏鍙栧埌update鏁版嵁");
             }
         } else {
             logger.info("DynamicSqlTemplateImpl.setCopyLogFromUpdate selectCols is null, class=" + clazz.getName());
