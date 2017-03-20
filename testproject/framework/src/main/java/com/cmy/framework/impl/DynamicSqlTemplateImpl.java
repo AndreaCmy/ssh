@@ -1,20 +1,5 @@
 package com.cmy.framework.impl;
  
-//
-//import com.tujia.framework.crmlog.Logger;
-//import com.tujia.framework.crmlog.LoggerFactory;
-//import com.tujia.framework.mq.FrameMqManager;
-//import com.tujia.framework.orm.BaseModel;
-//import com.tujia.framework.orm.DynamicSqlTemplate;
-//import com.tujia.framework.orm.IDataEntity;
-//import com.tujia.framework.orm.businesslog.BusinessLog;
-//import com.tujia.framework.orm.businessrollback.BusinessRollBack;
-//import com.tujia.framework.trace.TraceInterceptor;
-//import com.tujia.framework.usercontext.UserContext;
-//import com.tujia.framework.utility.ReflectionUtils;
-//import com.tujia.framework.utility.StringUtils;
-//import com.tujia.framework.vobase.CopyLogVo;
-//import com.tujia.framework.vobase.IUserInfo;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.lang.reflect.AccessibleObject;
